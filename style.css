@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxes{
+    width: 90%;
+    border: 1px solid black;
+    display: flex;
+    margin: 25px auto;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+.box1{
+    width: 32%;
+    background: linear-gradient(yellow, red);
+    height: 50vh;
+}
+.box2{
+    width: 55%;
+    background:  linear-gradient(red, black);
+    height: calc(100vh - 200px);
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      font-size: 55px;
+  text-shadow: 0 0 15px black;
+}
+.text:hover{
+   color: aliceblue;
+      text-shadow: 5px 5px 15px black;
+}
